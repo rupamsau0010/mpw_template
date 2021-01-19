@@ -41,8 +41,8 @@ $(document).ready(function(){
         loop: true
     });
 
-    var typed = new Typed(".typing-2", {
-        strings: ["Student", "Full-stack Developer", "Data Science Learner", "Freelancer"],
+    var typed2 = new Typed(".typing-2", {
+        strings: ["Student", "Full-stack Developer", "Data Science Learner", "Freelancer", "host"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
@@ -51,12 +51,12 @@ $(document).ready(function(){
     // ["Portfolio design", "Online e-commerse site", "Small businesses interface"]
 
 
-    // var typed = new Typed(".typing-3", {
-    //     strings: ["Student", "Full-stack Developer", "Data Science Learner", "Freelancer"],
-    //     typeSpeed: 100,
-    //     backSpeed: 60,
-    //     loop: true
-    // });
+    var typed3 = new Typed(".typing-3", {
+        strings: ["Portfolio", "Business e-commerse", "Web interface"],
+        typeSpeed: 100,
+        backSpeed: 60,
+        loop: true
+    });
 
     // owl carousel script
     $('.carousel').owlCarousel({
