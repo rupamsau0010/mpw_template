@@ -58,6 +58,13 @@ $(document).ready(function(){
         loop: true
     });
 
+    var typed4 = new Typed(".typing-4", {
+        strings: ["Node Js", "React Js", "Express Js", "MongoDB", "Python", "MySQL", "Java", "C", "C++"],
+        typeSpeed: 100,
+        backSpeed: 60,
+        loop: true
+    });
+
     // owl carousel script
     $('.carousel').owlCarousel({
         margin: 20,
