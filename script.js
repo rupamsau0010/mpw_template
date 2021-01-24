@@ -65,6 +65,13 @@ $(document).ready(function(){
         loop: true
     });
 
+    var typed5 = new Typed(".typing-5", {
+        strings: ["The Complete 2021 Web Development Bootcamp - Angela Yu", "What is Data Science - IBM, Coursera", "Data Scientist with Python - Datacamp", "Startup India Learning Program - Upgrad", "Mastering Java se Programming from Beginner to Master - Abdul Bari, Udemy", "Master Data Structures and Algorithms using c and c++ - Abdul Bari, Udemy", "Problem Solving with C - NPTEL", "Better Spoken English - NPTEL"],
+        typeSpeed: 100,
+        backSpeed: 60,
+        loop: true
+    });
+
     // owl carousel script
     $('.carousel').owlCarousel({
         margin: 20,
