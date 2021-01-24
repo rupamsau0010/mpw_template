@@ -600,6 +600,84 @@ p.s2{
     color: black;
 }
 
+/* Others.html page styling */
+
+.education {
+    margin: 0 7.5% 5%;
+}
+
+.education .image img {
+    padding-top: 50px;
+    margin-right: 100px;
+    height: 400px;
+    width: 650px;
+    float: left;
+}
+
+.education .main-tag {
+    padding-bottom: 30px;
+    text-align: center;
+    color: crimson;
+    font-size: 30px;
+    font-family: "Poppins", sans-serif;
+}
+
+.education .sub-tag-content .sub-tag {
+    font-family: "Ubuntu", sans-serif;
+    font-size: 26px;
+    padding: 20px 0;
+}
+
+.education .sub-tag-content .content {
+    font-family: "Ubuntu", sans-serif;
+    font-size: 20px;
+}
+
+.education .sub-tag-content .content h4{
+    padding-bottom: 10px;
+}
+
+.education .sub-tag-content .content span {
+    color: crimson;
+}
+
+.achievement {
+    margin: 0 7.5% 5%;
+}
+
+.achievement .image img {
+    padding-top: 50px;
+    height: 400px;
+    width: 450px;
+    float: right;
+}
+
+.achievement .main-tag {
+    padding-bottom: 30px;
+    text-align: center;
+    color: crimson;
+    font-size: 30px;
+    font-family: "Poppins", sans-serif;
+}
+
+.achievement .sub-tag-content .sub-tag {
+    font-family: "Ubuntu", sans-serif;
+    font-size: 26px;
+    padding: 20px 0;
+}
+
+.achievement .sub-tag-content .content {
+    font-family: "Ubuntu", sans-serif;
+    font-size: 20px;
+}
+
+.achievement .sub-tag-content .content h4{
+    padding-bottom: 10px;
+}
+
+.achievement .sub-tag-content .content span {
+    color: crimson;
+}
 
 /* responsive media query start */
 @media (max-width: 1300px) {
