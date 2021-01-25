@@ -609,6 +609,7 @@ p.s2{
 .education .image img {
     padding-top: 50px;
     margin-right: 100px;
+    margin-bottom: 100px;
     height: 400px;
     width: 650px;
     float: left;
@@ -679,6 +680,84 @@ p.s2{
     color: crimson;
 }
 
+
+.project {
+    margin: 0 7.5% 5%;
+}
+
+.project .image img {
+    margin-right: 150px;
+    height: 450px;
+    width: 450px;
+    margin-bottom: 100px;
+    float: left;
+}
+
+.project .main-tag {
+    padding-bottom: 30px;
+    text-align: center;
+    color: crimson;
+    font-size: 30px;
+    font-family: "Poppins", sans-serif;
+}
+
+.project .sub-tag-content .sub-tag {
+    font-family: "Ubuntu", sans-serif;
+    font-size: 26px;
+    padding: 20px 0;
+}
+
+.project .sub-tag-content .content {
+    font-family: "Ubuntu", sans-serif;
+    font-size: 20px;
+}
+
+.project .sub-tag-content .content h4{
+    padding-bottom: 10px;
+}
+
+.project .sub-tag-content .content span {
+    color: crimson;
+}
+
+.hobby {
+    margin: 0 7.5% 5%;
+}
+
+.hobby .image img {
+    padding-top: 50px;
+    height: 400px;
+    width: 450px;
+    float: right;
+}
+
+.hobby .main-tag {
+    padding-bottom: 30px;
+    text-align: center;
+    color: crimson;
+    font-size: 30px;
+    font-family: "Poppins", sans-serif;
+}
+
+.hobby .sub-tag-content .sub-tag {
+    font-family: "Ubuntu", sans-serif;
+    font-size: 26px;
+    padding: 20px 0;
+}
+
+.hobby .sub-tag-content .content {
+    font-family: "Ubuntu", sans-serif;
+    font-size: 20px;
+}
+
+.hobby .sub-tag-content .content h4{
+    padding-bottom: 10px;
+}
+
+.hobby .sub-tag-content .content span {
+    color: crimson;
+}
+
 /* responsive media query start */
 @media (max-width: 1300px) {
     .home .max-width{
@@ -702,6 +781,28 @@ p.s2{
     }
     p.s2 {
         margin-left: 10%;
+    }
+
+    /*others page education section*/
+    .education .image img {
+        margin-left: 20px;
+        width: 500px;
+    }
+
+    /*achievement section*/
+    .achievement .image img {
+        margin-left: auto;
+    }
+
+    /*project section*/
+    .project .image img {
+        margin-left: 0px;
+        margin-right: 10px;
+    }
+
+    /*hobby section*/
+    .hobby .image img {
+        margin-left: auto;
     }
 }
 
@@ -729,6 +830,20 @@ p.s2{
     }
     p.s2 {
         margin-left: 6%;
+    }
+
+    /*others page education section*/
+    .education, .achievement, .project, .hobby {
+        margin: 0 3% 5%;
+    }
+
+    .education .image img {
+        margin-left: 0px;
+        margin-top: 50px;
+        margin-bottom: 170px;
+        margin-right: 10px;
+        padding-left: 0;
+        width: 500px;
     }
 }
 
@@ -845,6 +960,23 @@ p.s2{
         margin-left: 10%;
         margin-right: 10%;
     }
+
+    /*Others.html education section*/
+    .education, .achievement, .project, .hobby {
+        margin: 0 8% 5%;
+    }
+
+    .education .sub-tag-content, .achievement .sub-tag-content, .project .sub-tag-content, .hobby .sub-tag-content {
+        padding-left: 50px;
+    }
+
+    .education .image img, .achievement .image img, .project .image img, .hobby .image img {
+        float: none;
+        display: block;
+        margin: 0 auto 15px auto;
+        height: 400px;
+        width: 700px;
+    }
 }
 
 @media (max-width: 690px) {
@@ -906,6 +1038,16 @@ p.s2{
         justify-content: center;
         margin-left: 5%;
         margin-right: 5%;
+    }
+
+    /*Others.html education section*/
+    .education, .achievement, .project, .hobby {
+        margin: 0 2% 5%;
+    }
+
+    .education .image img, .achievement .image img, .project .image img, .hobby .image img {
+        margin: 0 auto 15px auto;
+        width: 520px;
     }
 }
 
@@ -979,5 +1121,41 @@ p.s2{
         justify-content: center;
         margin-left: 5%;
         margin-right: 5%;
+    }
+
+    /*Others.html education section*/
+    .education, .achievement, .project, .hobby {
+        margin: 0 1% 5%;
+    }
+
+    .education .sub-tag-content, .achievement .sub-tag-content, .project .sub-tag-content, .hobby .sub-tag-content {
+        padding-left: 20px;
+    }
+
+    .education .image img, .achievement .image img, .project .image img, .hobby .image img {
+        /* margin: 0 auto 15px auto; */
+        width: 300px;
+        height: 280px;
+    }
+
+    .education .main-tag, .achievement .main-tag, .project .main-tag, .hobby .main-tag {
+        font-size: 20px;
+    }
+    
+    .education .sub-tag-content .sub-tag, .achievement .sub-tag-content .sub-tag, .project .sub-tag-content .sub-tag, .hobby .sub-tag-content .sub-tag {
+        font-size: 18px;
+    }
+    
+    .education .sub-tag-content .content, .achievement .sub-tag-content .content, .project .sub-tag-content .content, .hobby .sub-tag-content .content {
+        font-size: 14px;
+    }
+
+}
+
+@media (max-width: 300px) {
+    .education .image img, .achievement .image img, .project .image img, .hobby .image img {
+        /* margin: 0 auto 15px auto; */
+        width: 250px;
+        height: 200px;
     }
 }
