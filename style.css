@@ -550,6 +550,25 @@ footer span a:hover{
     text-decoration: underline;
 }
 
+/*footer icons*/
+#footer
+{
+  padding: 5% 15% 1.5%;
+  text-align: center;
+  line-height: 60%;
+}
+.social_icons
+{
+  padding-left: 2%;
+  padding-right: 2%;
+  padding-bottom: 1.5%;
+}
+.facebook_logo, .instagram_logo, .twiter_logo, .mail_logo 
+{
+  color: crimson;
+}
+
+
 /*Services.html page services section*/
 img.s1{
     width: 300px;
@@ -686,7 +705,7 @@ p.s2{
 }
 
 .project .image img {
-    margin-right: 150px;
+    margin-right: 300px;
     height: 450px;
     width: 450px;
     margin-bottom: 100px;
@@ -971,6 +990,8 @@ p.s2{
     }
 
     .education .image img, .achievement .image img, .project .image img, .hobby .image img {
+        margin-left: 0;
+        padding-left: 0;
         float: none;
         display: block;
         margin: 0 auto 15px auto;
